@@ -1,0 +1,35 @@
+:root {
+    --main-brown: #454545;
+}
+
+.sectionCatalog {
+    color: var(--main-brown);
+    max-width: 1316px;
+    width: 100%;
+    padding: 0 8px;
+    margin: 50px auto;
+    font-family: "Manrope", sans-serif;
+}
+
+.topSide {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.catalogTitle {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.button {
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 14px 48px;
+    border: 1px solid var(--main-brown);
+    border-radius: 100px;
+}
