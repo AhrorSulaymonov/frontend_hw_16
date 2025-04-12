@@ -2,7 +2,12 @@ import React from "react";
 
 // Ma'lumotlar massivi (rasm manzillari public papkaga nisbatan)
 const catalogItems = [
-  { id: 1, title: "Люстры", price: "540Р", image: "/catalog/cat1.png" },
+  {
+    id: 1,
+    title: "Люстры",
+    price: "540Р",
+    image: "/catalog/cat1.png",
+  },
   { id: 2, title: "Светильники", price: "540Р", image: "/catalog/cat2.png" },
   { id: 3, title: "Бра", price: "540Р", image: "/catalog/cat3.png" },
   { id: 4, title: "Торшеры", price: "540Р", image: "/catalog/cat4.png" },
